@@ -1,10 +1,10 @@
 //Install express server
 const express = require('express');
-const bodyParser = require("body-parser");  // added 
+// const bodyParser = require("body-parser");  // added 
 const path = require('path');
 
 const app = express();
-app.use(bodyPar)
+// app.use(bodyPar) // added 
 
 // Serve only the static files form the dist directory
 const distDir = __dirname + '/dist/'
