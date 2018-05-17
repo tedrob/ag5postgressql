@@ -1,8 +1,9 @@
 /* SystemJS module definition */
-/* declare var module: NodeModule;
+declare var module: NodeModule;
 interface NodeModule {
   id: string;
-} */
+}
+
 import { DataTypeAbstract, DefineAttributeColumnOptions } from "sequelize";
 
 type SequelizeAttribute = string | DataTypeAbstract | DefineAttributeColumnOptions;

@@ -11,6 +11,7 @@
     },
     "production": {
       "dialect": "postgres",
+      "ssl": true,
       "operatorsAliases": false
     }
   }
